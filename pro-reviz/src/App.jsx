@@ -16,7 +16,7 @@ function App() {
             <h1 className="text-5xl font-bold mb-4 font-roboto bg-gradient-to-r from-gray-400 to-gray-600 text-transparent bg-clip-text">
               Stránky se připravují...
             </h1>
-            <p className="text-xl mb-8 px-4 md:px-0 font-roboto bg-gradient-to-r from-gray-200 to-gray-300 text-transparent bg-clip-text">
+            <p className="text-xl font-bold mb-8 px-4 md:px-0 font-roboto bg-gradient-to-r from-gray-200 to-gray-300 text-transparent bg-clip-text">
               V případě jakýchkoliv dotazů kontaktujte:{" "}
               <a
                 href="mailto:info@pro-reviz.cz"
