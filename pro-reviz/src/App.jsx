@@ -1,4 +1,8 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
+import Cards from "./components/Cards";
 import revizLogo from "./assets/revizLogo.png";
 
 function App() {
@@ -7,8 +11,8 @@ function App() {
   };
 
   return (
-    <>
-      <div className="relative min-h-screen">
+    <div className="bg-gradient-to-br from-gray-900 to-gray-700">
+      {/* <div className="relative min-h-screen">
         <div className="absolute inset-0 bg-gray-800 w-screen"></div>
         <div className="absolute inset-0 flex flex-col justify-center items-center mx-0">
           <img src={revizLogo} alt="Reviz Logo" className="w-1/2 mb-8" />
@@ -33,8 +37,13 @@ function App() {
             </button>
           </div>
         </div>
-      </div>
-    </>
+      </div> */}
+
+      <Navbar />
+      <Hero />
+      <Cards />
+      <Footer />
+    </div>
   );
 }
 
