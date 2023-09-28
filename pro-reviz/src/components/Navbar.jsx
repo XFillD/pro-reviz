@@ -10,11 +10,6 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    element.scrollIntoView({ behavior: "smooth" });
-  };
-
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
@@ -41,47 +36,27 @@ const Navbar = () => {
         <img src={revizLogo} alt="Reviz Logo" className="h-full" />
         <ul className="hidden md:flex">
           <li className="relative p-4 transition-all">
-            <a
-              href="#"
-              className="hover:text-green-500"
-              onClick={() => scrollToSection("home")}
-            >
+            <a href="#home" className="hover:text-green-500">
               Domů
             </a>
           </li>
           <li className="relative p-4 transition-all">
-            <a
-              href="#"
-              className="hover:text-green-500"
-              onClick={() => scrollToSection("services")}
-            >
+            <a href="#sluzby" className="hover:text-green-500">
               Služby
             </a>
           </li>
           <li className="relative p-4 transition-all">
-            <a
-              href="#"
-              className="hover:text-green-500"
-              onClick={() => scrollToSection("about")}
-            >
+            <a href="#about" className="hover:text-green-500">
               O nás
             </a>
           </li>
           <li className="relative p-4 transition-all">
-            <a
-              href="#"
-              className="hover:text-green-500"
-              onClick={() => scrollToSection("references")}
-            >
-              Reference
+            <a href="#portf" className="hover:text-green-500">
+              Portfolio
             </a>
           </li>
           <li className="relative p-4 transition-all">
-            <a
-              href="#"
-              className="hover:text-green-500"
-              onClick={() => scrollToSection("contact")}
-            >
+            <a href="#kontakt" className="hover:text-green-500">
               Kontakt
             </a>
           </li>
