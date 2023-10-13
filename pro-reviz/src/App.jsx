@@ -9,12 +9,13 @@ import UnderConstruction from "./components/UnderConstruction";
 function App() {
   return (
     <div className="bg-gradient-to-br from-gray-900 to-gray-700">
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <Cards />
       <hr className="border-black border-solid" />
       <Portfolio />
-      <Footer />
+      <Footer /> */}
+      <UnderConstruction />
     </div>
   );
 }
