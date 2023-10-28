@@ -1,4 +1,3 @@
-import React from "react";
 import { useInView } from "react-intersection-observer";
 import { Transition } from "@headlessui/react";
 
@@ -26,7 +25,7 @@ const AnimatedComponent = ({ children }) => {
 
 const Cards = () => {
   return (
-    <div className="w-full py-[10rem] px-4 bg-white" id="sluzby">
+    <div className="relative w-full py-[10rem] px-4 bg-white" id="sluzby">
       <AnimatedComponent>
         <h1 className="text-4xl font-bold text-center mb-8">Naše služby</h1>
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">

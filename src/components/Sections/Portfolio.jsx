@@ -1,4 +1,3 @@
-import React from "react";
 import { useInView } from "react-intersection-observer";
 import { Transition } from "@headlessui/react";
 
@@ -26,7 +25,7 @@ const AnimatedComponent = ({ children }) => {
 
 const Portfolio = () => {
   return (
-    <div className="w-full py-[10rem] px-4 bg-white" id="portf">
+    <div className="relative w-full py-[10rem] px-4 bg-white" id="portf">
       <AnimatedComponent>
         <h1 className="text-4xl font-bold text-center mb-8">Portfolio</h1>
         <div className="container px-6 py-10 mx-auto">
