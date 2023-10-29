@@ -6,18 +6,16 @@ import Portfolio from "../components/Sections/Portfolio";
 // import UnderConstruction from "./components/UnderConstruction";s
 
 function App() {
-  return (
-    <div >
-    {/* className="bg-hero-img bg-cover bg-fixed" */}
-      <Navbar />
-      <Hero />
-      <Cards />
-      <hr className="border-black border-solid" />
-      <Portfolio />
-      <Footer />
-      {/* <UnderConstruction /> */}
-    </div>
-  );
+    return (
+        <main>
+            <Navbar />
+            <Hero />
+            <Cards />
+            <Portfolio />
+            <Footer />
+            {/* <UnderConstruction /> */}
+        </main>
+    );
 }
 
 export default App;

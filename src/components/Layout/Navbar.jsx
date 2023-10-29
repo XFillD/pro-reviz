@@ -22,7 +22,7 @@ const Navbar = () => {
             <nav
                 className={cn(
                     "fixed top-0 left-0 right-0 z-40 transition-colors duration-1000 ease-in-out",
-                    isTransparent ? "bg-transparent" : "bg-black bg-opacity-80"
+                    isTransparent ? "bg-transparent" : "bg-mainRed bg-opacity-95"
                 )}
             >
                 <div className="flex justify-between items-center h-14 md:h-20 max-w-7xl mx-auto p-4">

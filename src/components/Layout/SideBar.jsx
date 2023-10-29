@@ -30,7 +30,7 @@ const SideBar = ({ children, open, setOpen }) => {
                                 leaveTo="translate-x-full"
                             >
                                 <Dialog.Panel className="pointer-events-auto relative w-screen max-w-md">
-                                    <div className="flex h-full flex-col overflow-y-scroll bg-black p-6 shadow-xl">
+                                    <div className="flex h-full flex-col overflow-y-scroll bg-mainRed p-6 shadow-xl">
                                         {children}
                                     </div>
                                 </Dialog.Panel>

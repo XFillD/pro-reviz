@@ -1,5 +1,5 @@
 const Footer = () => (
-    <div className="relative bg-black p-4">
+    <div className="relative bg-mainRed p-4">
         <div className="flex flex-col justify-center items-center gap-4 max-w-7xl text-white mx-auto">
             <div className="w-full flex flex-col items-center gap-2 md:justify-around md:flex-row">
                 <p>proreviz@gmail.com</p>
